@@ -1,0 +1,53 @@
+# Environment variables - NEVER commit these
+.env
+.env.local
+.env.production
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.Python
+*.so
+
+# Node / Frontend
+node_modules/
+dist/
+.next/
+coverage/
+*.local
+
+# Package locks (optional - remove if you want to track these)
+# package-lock.json
+# yarn.lock
+
+# OS
+.DS_Store
+.DS_Store?
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# LiveKit / ML models
+*.bin
+*.pt
+*.pth
+models/
